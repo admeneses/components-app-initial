@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação React Native/Expo configurada com **NativeWind** para estilização baseada em Tailwind CSS, focada na criação e organização de componentes reutilizáveis.
 
-## 🚀 Tecnologias
+## Stack
 
 - **React Native** 0.79.5
 - **Expo** 53.0.22
@@ -27,7 +27,7 @@ components-app/
 └── package.json        # Dependências e scripts
 ```
 
-## ⚙️ Configurações
+## Configurações
 
 ### 1. NativeWind Setup
 
@@ -85,7 +85,7 @@ O projeto inclui suporte completo ao TypeScript com:
 - `nativewind-env.d.ts` para tipos do NativeWind
 - `app-env.d.ts` para tipos da aplicação
 
-## 🧩 Sistema de Componentes
+## Componentes
 
 ### Container Component
 ```typescript
@@ -121,7 +121,7 @@ export default function App() {
 }
 ```
 
-## 🎨 Estilização com NativeWind
+## NativeWind
 
 ### Classes Tailwind Disponíveis
 - **Layout**: `flex`, `flex-1`, `m-6`, `p-4`
@@ -144,7 +144,7 @@ const styles = {
 };
 ```
 
-## 🚀 Scripts Disponíveis
+## Scripts
 
 ```bash
 # Desenvolvimento
@@ -158,7 +158,7 @@ npm run lint       # Executa ESLint
 npm run format     # Formata código com Prettier
 ```
 
-## 📱 Executando o Projeto
+## Executando o Projeto
 
 1. **Instalar dependências:**
    ```bash
@@ -175,7 +175,7 @@ npm run format     # Formata código com Prettier
    - Pressione `a` para Android
    - Pressione `w` para web
 
-## 🔧 Configurações de Desenvolvimento
+## Configurações de Desenvolvimento
 
 ### ESLint
 - Configurado com `eslint-config-expo`
@@ -187,40 +187,8 @@ npm run format     # Formata código com Prettier
 - Formatação automática de classes Tailwind
 - Integração com ESLint
 
-### TypeScript
-- Configuração estrita para React Native
-- Suporte completo a tipos do NativeWind
-- Verificação de tipos em tempo de compilação
-
-## 📚 Recursos Adicionais
+## Recursos Adicionais
 
 - **React Native Reanimated**: Para animações fluidas
 - **Safe Area Context**: Para compatibilidade com diferentes dispositivos
 - **Status Bar**: Configuração automática da barra de status
-
-## 🎯 Boas Práticas
-
-1. **Organização de Componentes:**
-   - Mantenha componentes pequenos e focados
-   - Use o padrão de objeto `styles` para classes Tailwind
-   - Exporte componentes nomeados para melhor tree-shaking
-
-2. **Estilização:**
-   - Prefira classes utilitárias do Tailwind
-   - Use o objeto `styles` para organizar classes complexas
-   - Mantenha consistência na nomenclatura
-
-3. **TypeScript:**
-   - Defina interfaces para props dos componentes
-   - Use tipos específicos do React Native
-   - Aproveite a inferência de tipos
-
-## 🤝 Contribuindo
-
-1. Crie componentes reutilizáveis
-2. Mantenha a consistência com o sistema de design
-3. Use TypeScript para type safety
-4. Siga as convenções de nomenclatura
-5. Teste em diferentes dispositivos
-
----
